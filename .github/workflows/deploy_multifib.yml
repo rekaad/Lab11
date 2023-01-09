@@ -13,16 +13,16 @@ jobs:
         include:
           - dockerfile: ./Dockerfile
             context: client
-            image: rekaad/Lab11:fib-client
+            image: reekad/lab11:fib-client
           - dockerfile: ./Dockerfile
             context: server
-            image: rekaad/Lab11:fib-server
+            image: reekad/lab11:fib-server
           - dockerfile: ./Dockerfile
             context: worker
-            image: rekaad/Lab11:fib-worker
+            image: reekad/lab11:fib-worker
           - dockerfile: ./Dockerfile
             context: nginx
-            image: rekaad/Lab11:fib-router  
+            image: reekad/lab11:fib-router  
     
     steps:
 
